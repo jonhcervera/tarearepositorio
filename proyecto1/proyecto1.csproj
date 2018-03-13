@@ -56,6 +56,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>basedatos1DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="categoriasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="categoriasForm.Designer.cs">
+      <DependentUpon>categoriasForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="clientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     <Compile Include="ubicacionForm.Designer.cs">
       <DependentUpon>ubicacionForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="categoriasForm.resx">
+      <DependentUpon>categoriasForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clientesForm.resx">
       <DependentUpon>clientesForm.cs</DependentUpon>
     </EmbeddedResource>
