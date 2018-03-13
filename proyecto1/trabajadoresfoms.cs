@@ -16,5 +16,20 @@ namespace proyecto1
         {
             InitializeComponent();
         }
+
+        private void trabajadoresBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.trabajadoresBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.basedatos1DataSet);
+
+        }
+
+        private void trabajadoresfoms_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'basedatos1DataSet.trabajadores' Puede moverla o quitarla según sea necesario.
+            this.trabajadoresTableAdapter.Fill(this.basedatos1DataSet.trabajadores);
+
+        }
     }
 }
