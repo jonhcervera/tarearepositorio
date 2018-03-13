@@ -80,6 +80,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="inventarioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventarioForm.Designer.cs">
+      <DependentUpon>inventarioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="trabajadoresfoms.cs">
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="entradaForm.resx">
       <DependentUpon>entradaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventarioForm.resx">
+      <DependentUpon>inventarioForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
